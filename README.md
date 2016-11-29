@@ -19,7 +19,7 @@ A successful requests has a few requirements:
 Example:
 
 ```
-curl -i -X POST http://localhost:5000 -H "Content-Type: application/json" -d '{"ip": "108.29.95.28"}'
+curl -i -X POST https://ep-geoip.herokuapp.com -H "Content-Type: application/json" -d '{"ip": "108.29.95.28"}'
 ```
 
 Response:
